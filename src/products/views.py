@@ -28,6 +28,7 @@ class ProductDetailView(DetailView):
 	# 	context = super(ProductListView, self).get_context_data(*args,**kwargs)
 	# 	print(context)
 	# 	return context
+	#hellocomment
 
 def product_detail_view(request, pk=None , *args, **kwargs):
 	instance = Product.objects.get(id = pk)
